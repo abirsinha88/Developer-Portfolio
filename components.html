@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component library</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<h1>Welcome to Abir's component library</h1>
+<hr>
+
+<h2>@typography</h2>
+<h1>this is the biggest heading</h1>
+<h2>this is the second biggest heading</h2>
+<p>this is normal text</p>
+<small>this is relatively smallar text</small>
+<hr>
+
+<h2>@Containers</h2>
+<h3>this is a fluid container</h3>
+<div class="container">this is a fluid container. this will go end to the page</div>
+<h3>centered container</h3>
+<div class="container container-center">this is a centered container. this will go till the specified width</div>
+<hr>
+
+<h2>@links</h2>
+<a class="link link-primary " href="/">primary link</a>
+<a class="link link-secondary" href="#">secondary link</a>
+<hr>
+
+<h2>@lists</h2>
+<h3>unordered list</h3>
+<p>this list will not have the bullets</p>
+<ul class="list-nonbullet">
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ul>
+<h3>unordered inline list</h3>
+<ul class="list-nonbullet">
+    <li class="list-item-inline">item one</li>
+    <li class="list-item-inline">item two</li>
+    <li class="list-item-inline">item three</li>
+</ul>
+<h3>reversed order list</h3>
+<ol reversed>
+    <li>item three</li>
+    <li>item two</li>
+    <li>item one</li>
+</ol>
+<hr>
+
+<h2>@nav</h2>
+ <nav class="navigation container">
+    <div class="nav-brand">iambrand</div>
+    <ul class="list-nonbullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link link-active " href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+            <a  class="link" href="/">products</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link"Shref="/">about</a>
+        </li>
+    </ul>
+ </nav>
+ <hr>
+
+ <h2>@header</h2>
+ <header class="hero">
+ <img class="hero-image" src="/hero.svg" alt="">
+ <h1 class="hero-heading">heading inside <span class="heading-inverted">hero</span></h1>
+</header>
+ <hr>
+<h2>@section</h2>
+<section class="section">
+    <div class="container-center container">
+        <h1>white section</h1>
+    <p>this will have white background</p>
+    </div>
+</section>
+<section class="section off-white">
+    <div class=" container container-center">
+        <h1>off white section</h1>
+    <p>this will have gray background</p>
+    </div>
+</section>
+<hr>
+
+<h2>@footer</h2>
+<footer class="footer">
+    <div class="footer-header">small text inside footer</div>
+    <ul>
+        <li class="list-item-inline"><a class="link" href="#">social one</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="#">social two</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="#">social three</a>
+        </li>
+    </ul>
+</footer>
+<hr>
+
+</body>
+</html>
